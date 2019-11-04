@@ -17,7 +17,9 @@ class Dec2Hex
             {
                 System.err.println("Argument" + args[0] + " must be an integer.");
                 System.exit(1);
-            }
+            } 
+			
+		}
         
 
 			char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
@@ -39,7 +41,6 @@ class Dec2Hex
 			{
 			System.err.println("Please enter a value to be converetd");
 			System.exit(1);
-			} 
-		} 
+			}  
     }
 }
