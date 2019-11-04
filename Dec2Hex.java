@@ -26,10 +26,9 @@ class Dec2Hex
 			int rem, num;
 			num = Arg1;
 			String hexadecimal="";
-				System.out.println("Converting the Decimal Value " + num + " to Hex..."); 
-			
 			if (num > 0) 
 			{
+				System.out.println("Converting the Decimal Value " + num + " to Hex..."); 
 				while (num != 0)
 				{
 				rem=num%16;
