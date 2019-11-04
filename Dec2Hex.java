@@ -26,21 +26,20 @@ class Dec2Hex
 			String hexadecimal="";
 				System.out.println("Converting the Decimal Value " + num + " to Hex...");
 
-				while(num != 0)
+				if (num != 0)
 			{
 			rem=num%16;
 			hexadecimal= ch[rem] + hexadecimal;
             num= num/16;
+
+			System.out.println("Hexadecimal representation is : " + hexadecimal); 
+			
 			}
-
-			System.out.println("Hexadecimal representation is : " + hexadecimal);
-
+				else 
+			{
+			System.err.println("Please enter a value to be converetd");
+			System.exit(1);
+			} 
 		} 
-		  else 
-      {
-        System.err.println("Please enter a value to be converetd");
-        System.exit(1);
-      } 
-	  
     }
 }
