@@ -27,7 +27,7 @@ class Dec2Hex
 			num = Arg1;
 			String hexadecimal="";
 				System.out.println("Converting the Decimal Value " + num + " to Hex..."); 
-			if (num = 0) 
+			if (num => 0) 
 			{
 			System.err.println("Please enter a value to be converetd");
 			System.exit(1);
